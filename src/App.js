@@ -1,17 +1,13 @@
-import Asset from "./asset";
-import "./App.css";
+import Container from "react-bootstrap/Container";
 import Header from "./components/Header";
-import PlayerCard from "./components/Player";
-import React, { useState } from "react";
+import CardContainer from "./components/CardContainer";
 
 function App() {
-  const [searchInput, setSearchInput] = useState("");
   return (
-    <div>
-      <Asset />
-      <Header setSearchInput={setSearchInput} searchInput={searchInput} />
-      <PlayerCard searchInput={searchInput} />
-    </div>
+    <Container className="text-center mt-4">
+      <Header />
+      <CardContainer />
+    </Container>
   );
 }
 
