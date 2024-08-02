@@ -1,4 +1,7 @@
 ## About the Project
+<div align="center">
+  <img src="legend.gif" />
+</div>
 
 This project is a simple web application that displays information about NBA legends. The application is developed using React and Bootstrap technologies.
 
